@@ -1,6 +1,6 @@
 cask "s-info" do
-  version "1.0.2"
-  sha256 "d0e29ef61c261d056b6db992ebce8246e46831912bb69dc30a6b32c9399743c5"
+  version "1.0.3"
+  sha256 "4b33ff035ad404d8405b6c9e61156cdcbb4c1f09eaf7b98b7cfaffb7fa284bbf"
 
   url "https://github.com/Dhivyadhanush/s-info/releases/download/v#{version}/S-Info.zip"
   name "S-Info"
