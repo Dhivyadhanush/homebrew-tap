@@ -1,6 +1,6 @@
 cask "server-fo" do
-  version "1.6.0"
-  sha256 "cf876abd3876932e4ced2455c9cd38580474af62244b040e61ac5093d1fdc3b5"
+  version "1.6.1"
+  sha256 "49fcf9f52587d3d5ac3c0d2182f7580d787eff4f809398c43554486c4e7a2f42"
 
   url "https://github.com/Dhivyadhanush/server-fo/releases/download/v#{version}/Server-Fo.zip"
   name "Server-Fo"
