@@ -1,10 +1,28 @@
 # Homebrew tap
 
-Casks for my macOS apps.
+Formulae and casks for my macOS apps.
 
 ```shell
 brew tap Dhivyadhanush/tap
 ```
+
+## Ritual
+
+Self-hosted health reminders for hydration, movement, habits and monthly
+check-ins, delivered through ntfy and mirrored to a watch.
+
+```shell
+brew install ritual
+ritual hash-password "your password"
+edit "$(brew --prefix)/etc/ritual.env"
+brew services start ritual
+```
+
+Dashboard: <http://127.0.0.1:4322>
+
+Run `brew info ritual` for configuration and service commands.
+
+Source and release notes: [Dhivyadhanush/ritual](https://github.com/Dhivyadhanush/ritual).
 
 ## S-Info
 
